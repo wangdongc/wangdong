@@ -1,2 +1,0 @@
--- avg函数里写判断，price=0时，为null，反之为当前的值
-select id,name,ROUND(AVG(case when price=0 then null else price end),2) from tb_books where name='语文'
